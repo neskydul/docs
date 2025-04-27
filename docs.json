@@ -16,9 +16,9 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduccion",
+              "requisitos",
+              "entregables"
             ]
           },
           {
