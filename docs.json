@@ -26,7 +26,7 @@
             "pages": [
               "fichadepersonaje/datos",
               "fichadepersonaje/contexto",
-              "fichadepersonaje/fichadepersonaje",
+              "fichadepersonaje/narrativa",
               "fichadepersonaje/settings",
               "fichadepersonaje/navigation",
               "fichadepersonaje/reusable-snippets"
