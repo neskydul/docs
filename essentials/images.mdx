@@ -1,59 +1,278 @@
 ---
-title: 'Images and Embeds'
-description: 'Add image, video, and other HTML elements'
-icon: 'image'
+title: "Images and Embeds"
+description: "Add image, video, and other HTML elements"
+icon: "image"
 ---
 
-<img
-  style={{ borderRadius: '0.5rem' }}
-  src="https://mintlify-assets.b-cdn.net/bigbend.jpg"
-/>
+# Contexto Histórico
 
-## Image
+Esta actividad guía a los alumnos a elaborar un **Contexto Histórico realista y preciso** ayudándose de herramientas de inteligencia artificial.
 
-### Using Markdown
+<Steps>
+  <Step>
+    ### **Preparar la información base.**
 
-The [markdown syntax](https://www.markdownguide.org/basic-syntax/#images) lets you add images using the following code
+    <Tabs>
+      <Tab title="Instrucciones">
+        A partir de los datos que el alumno haya recopilado en su tabla de [Datos Históricos](datos-historicos.md), se construirá un pequeño listado.
 
-```md
-![title](/path/image.jpg)
-```
+        - Periodo
+        - Tecnología
+        - Medio Ambiente
+        - Sociedad
+        - Innovación Clave
+      </Tab>
+      <Tab title="Ejemplo">
+        - **Periodo**: 
+          - Paleolítico inferior (≈ 450 000 a. C.)
+        - **Tecnología**: 
+          - Industria Achelense (bifaces simétricos de sílex y cuarcita)
+          - Uso eventual de martillos de madera.
+        - **Medio ambiente**: 
+          - Sabana intercalada con galería boscosa
+          - Alternancia de estaciones secas/húmedas.
+        - **Sociedad**: 
+          - Bandas de 20-30 individuos
+          - Cooperación básica
+          - Cuidado de crías prolongado
+          - Comunicación protolingüística (gestos, vocalizaciones).
+        - **Innovación clave**: 
+          - Control intermitente del fuego en hogueras naturales: noches más largas de actividad, defensa frente a depredadores.
+        - **Fuente**: Libro de texto, pág. 12.
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step>
+    ### **Elaborar el prompt para la IA.**
 
-Note that the image file size must be less than 5MB. Otherwise, we recommend hosting on a service like [Cloudinary](https://cloudinary.com/) or [S3](https://aws.amazon.com/s3/). You can then use that URL and embed.
+    Para elaborar un **Contexto Histórico** de calidad usando Inteligencia Artificial, es fundamental que los alumnos aprendan a formular un **buen prompt**: un mensaje claro y preciso que indique exactamente lo que queremos que la IA escriba.
 
-### Using Embeds
+    <Tabs>
+      <Tab title="Instrucciones">
+        1. **Presentar el objetivo**:\
+           Explicar que se quiere redactar un **párrafo breve** que describa cómo era la vida en una época concreta, basándose **solamente** en los datos que ya tienen.
+        2. **Dar instrucciones claras**:\
+           El mensaje debe pedir explícitamente que:
+           - Solo se use la información proporcionada (sin inventar ni añadir datos externos).
+           - Se escriba en un formato y estilo determinados.
+        3. **Especificar formato y estilo**:
+           - **Extensión**: Un único párrafo de 90 a 120 palabras.
+           - **Tono**: Divulgativo y preciso, escrito en tercera persona.
+           - **Inicio**: El párrafo debe empezar con una frase específica como "En el Paleolítico inferior…".
+           - **Integración de la información**: No repetir la lista de datos ni citar fuentes; todo debe estar integrado de forma fluida en el texto.
+        4. **Usar siempre un lenguaje sencillo y directo en el prompt** para evitar interpretaciones erróneas.
+      </Tab>
+      <Tab title="Ejemplo">
+        Redacta un párrafo titulado **"Contexto histórico real"** para una ficha-personaje de Prehistoria.\
+        Utiliza **solamente** los hechos de la siguiente lista (no añadas información externa):
 
-To get more customizability with images, you can also use [embeds](/writing-content/embed) to add images
+        - Periodo: Paleolítico inferior (≈ 450 000 a. C.)
+        - Tecnología: Industria Achelense (bifaces simétricos de sílex y cuarcita); uso eventual de martillos de madera.
+        - Medio ambiente: Sabana intercalada con galería boscosa; alternancia de estaciones secas/húmedas.
+        - Sociedad: Bandas de 20-30 individuos; cooperación básica, cuidado de crías prolongado; comunicación protolingüística (gestos, vocalizaciones).
+        - Innovación clave: Control intermitente del fuego en hogueras naturales: noches más largas de actividad, defensa frente a depredadores.
 
-```html
-<img height="200" src="/path/image.jpg" />
-```
+        **Formato y estilo**:
 
-## Embeds and HTML elements
+        - Un único párrafo de 90-120 palabras.
+        - Tono divulgativo y preciso, tercera persona.
+        - Empieza con "En el Paleolítico inferior…".
+        - No repitas la lista ni cites la fuente, integra todo en prosa continua.
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step>
+    ### Revisión crítica
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/4KzFe50RQkQ"
-  title="YouTube video player"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-  style={{ width: '100%', borderRadius: '0.5rem' }}
-></iframe>
+    El objetivo es que los alumnos aprendan a revisar críticamente el contenido generado con IA e identifiquen errores comparando el texto generado con las fuentes originales.
 
-<br />
+    <Tabs>
+      <Tab title="Instrucciones">
+        - **Comparar punto por punto con la información original**:
+          - Revisar si el texto incluye **todos los datos** proporcionados:
+            - Periodo
+            - Tecnología
+            - Medio ambiente
+            - Sociedad
+            - Innovación clave
+          - Verificar si esos datos se reflejan de manera correcta, usando como referencia los [Datos Históricos](datos-historicos.md) y el libro de texto.
+        - **Detectar información no autorizada**:
+          - Comprobar si el texto añade información que **no aparece** en su [Datos Históricos](datos-historicos.md)  ni en el libro.
+          - Si detectan añadidos (como inventos, eventos, tecnologías o costumbres no mencionadas en el libro), deben considerarlo un **error**.
+        - **Identificar errores históricos**:
+          - Revisar si el texto incluye **anacronismos** o datos erróneos (por ejemplo, mencionar cerámica en el Paleolítico Inferior).
+        - **Registrar los errores en una** [**Tabla de Errores**](../tabla-de-errores.md)
+      </Tab>
+      <Tab title="Ejemplo">
+        <table>
+        <thead>
+        <tr>
+        Tipo de Error
 
-<Tip>
+        
+        Error Detectado
 
-Mintlify supports [HTML tags in Markdown](https://www.markdownguide.org/basic-syntax/#html). This is helpful if you prefer HTML tags to Markdown syntax, and lets you create documentation with infinite flexibility.
+        
+        Fuente Correcta (según libro)
 
-</Tip>
+        
+        Corrección Propuesta
 
-### iFrames
+        </tr>
 
-Loads another HTML page within the document. Most commonly used for embedding videos.
+        </thead>
 
-```html
-<iframe src="https://www.youtube.com/embed/4KzFe50RQkQ"> </iframe>
-```
+        <tbody>
+        <tr>
+        Anacronismo
+
+        
+        Mención de cerámica en el Paleolítico Inferior
+
+        
+        La cerámica no existía en el Paleolítico Inferior
+
+        
+        Eliminar la referencia a la cerámica.
+
+        </tr>
+
+        <tr>
+        Invento añadido
+
+        
+        Uso de arcos y flechas
+
+        
+        No se documentan arcos en el Paleolítico Inferior
+
+        
+        Sustituir por el uso de bifaces de sílex.
+
+        </tr>
+
+        <tr>
+        Omisión
+
+        
+        No se menciona el control del fuego
+
+        
+        El control del fuego es una innovación clave
+
+        
+        Añadir una frase que describa el control del fuego.
+
+        </tr>
+
+        <tr>
+        Error de contexto
+
+        
+        Descripción de vida en aldeas permanentes
+
+        
+        La sociedad era nómada en bandas
+
+        
+        Corregir describiendo bandas móviles de 20-30 personas.
+
+        </tr>
+
+        <tr>
+        Error de tecnología
+
+        
+        Uso de herramientas metálicas
+
+        
+        No había metalurgia en el Paleolítico Inferior
+
+        
+        Cambiar por herramientas de piedra y madera.
+
+        </tr>
+
+        <tr>
+        Estilo inadecuado
+
+        
+        Texto muy técnico ("sistema protolingüístico emergente")
+
+        
+        Tono divulgativo sencillo
+
+        
+        Reformular en lenguaje claro ("se comunicaban con gestos y sonidos").
+
+        </tr>
+
+        <tr>
+        Error de medio ambiente
+
+        
+        Mención de bosques tropicales
+
+        
+        Clima: sabana intercalada con galerías boscosas
+
+        
+        Ajustar el paisaje descrito al correcto.
+
+        </tr>
+
+        <tr>
+        Información externa añadida
+
+        
+        Referencia a rituales funerarios organizados
+
+        
+        No documentados en ese periodo en el libro
+
+        
+        Eliminar mención o aclarar que no hay evidencias.
+
+        </tr>
+
+        <tr>
+        Error de innovación clave
+
+        
+        Uso de domesticación de animales
+
+        
+        No existía aún la domesticación
+
+        
+        Eliminar referencia y reforzar actividades de caza y recolección.
+
+        </tr>
+
+        <tr>
+        Error de extensión
+
+        
+        Párrafo supera las 150 palabras
+
+        
+        Extensión pedida: entre 90-120 palabras
+
+        
+        Resumir para cumplir el límite.
+
+        </tr>
+
+        </tbody>
+
+        </table>
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step>
+    ### Re-Prompt
+
+    - Si hay pequeños errores, el alumno puede corregir el texto directamente.
+    - Si hay muchos errores, se recomienda rehacer el prompt ajustándolo mejor.
+  </Step>
+</Steps>
