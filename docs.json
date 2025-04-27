@@ -24,9 +24,9 @@
           {
             "group": "Ficha de Personaje",
             "pages": [
-              "fichadepersonaje/fichadepersonaje",
               "fichadepersonaje/datos",
               "fichadepersonaje/contexto",
+              "fichadepersonaje/fichadepersonaje",
               "fichadepersonaje/settings",
               "fichadepersonaje/navigation",
               "fichadepersonaje/reusable-snippets"
