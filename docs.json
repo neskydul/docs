@@ -24,7 +24,7 @@
           {
             "group": "Iniciacion",
             "pages": [
-              "iniciacion/markdown",
+              "iniciacion/fichadepersonaje",
               "iniciacion/datos",
               "iniciacion/contexto",
               "iniciacion/settings",
