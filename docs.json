@@ -22,14 +22,14 @@
             ]
           },
           {
-            "group": "Iniciacion",
+            "group": "Ficha de Personaje",
             "pages": [
-              "iniciacion/fichadepersonaje",
-              "iniciacion/datos",
-              "iniciacion/contexto",
-              "iniciacion/settings",
-              "iniciacion/navigation",
-              "iniciacion/reusable-snippets"
+              "fichadepersonaje/fichadepersonaje",
+              "fichadepersonaje/datos",
+              "fichadepersonaje/contexto",
+              "fichadepersonaje/settings",
+              "fichadepersonaje/navigation",
+              "fichadepersonaje/reusable-snippets"
             ]
           }
         ]
