@@ -31,6 +31,18 @@
               "fichadepersonaje/presentacion",
               "fichadepersonaje/recursos"
             ]
+          },
+          {
+            "group": "Carta de Personaje",
+            "pages": [
+              "cartadepersonaje/descripciongeneral"
+            ]
+          },
+          {
+            "group": "Actividades Inmersivas",
+            "pages": [
+              "actividadesinmersivas/descripciongeneral"
+            ]
           }
         ]
       }
