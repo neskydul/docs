@@ -23,7 +23,6 @@
           },
           {
             "group": "Ficha de Personaje",
-            "icon": "book-open-cover",
             "pages": [
               "fichadepersonaje/descripciongeneral",
               "fichadepersonaje/datos",
