@@ -24,6 +24,7 @@
           {
             "group": "Ficha de Personaje",
             "pages": [
+              "fichadepersonaje/descripciongeneral",
               "fichadepersonaje/datos",
               "fichadepersonaje/contexto",
               "fichadepersonaje/perfil",
