@@ -4,4 +4,113 @@ icon: "sparkles"
 iconType: "duotone"
 ---
 
-<Icon icon="traffic-cone" iconType="sharp-duotone-solid" color="#851F6A" size={72} />
+Una vez redactado el **Contexto Histórico** y recogidos los **Datos Históricos**, el siguiente paso es crear el **Perfil de Personaje**, que incluye su nombre, rol, edad, localización, especie y un lema o frase simbólica.
+
+Este perfil será **generado con IA** a partir de los datos ya validados, y posteriormente **revisado y corregido por el alumno** si fuera necesario.
+
+<Steps>
+  <Step title="Información base." icon="book-open-cover" iconType="duotone" stepNumber="1" titleSize="h2">
+    ### El alumno debe tener listos:
+
+    - La **tabla de datos históricos**.
+    - El **contexto histórico generado previamente**.
+  </Step>
+  <Step title="Elaborar el prompt para la IA." icon="sparkles" iconType="duotone" stepNumber="2" titleSize="h2">
+    Para elaborar un **Contexto Histórico** de calidad usando Inteligencia Artificial, es fundamental que los alumnos aprendan a formular un **buen prompt**: un mensaje claro y preciso que indique exactamente lo que queremos que la IA escriba.
+
+    <Tabs>
+      <Tab title="Instrucciones">
+        1. **Presentar el objetivo**:\
+           Explicar que se quiere crear un **perfil ficticio** de un personaje que podría haber vivido en esa época, **usando únicamente la información ya obtenida** (datos históricos y contexto).
+        2. **Dar instrucciones claras**:\
+           El mensaje debe indicar explícitamente que:
+           - Solo se puede usar la información proporcionada.
+           - No se debe inventar ni añadir datos externos o anacrónicos.
+           - El resultado debe tener un formato específico con campos definidos.
+        3. **Especificar formato y estilo**:
+           - **Nombre inventado**: con sonoridad primitiva, sin referencias modernas.
+           - **Lema o frase simbólica**: una breve descripción poética o metafórica de su rol o identidad.
+           - **Localización**: realista, coherente con el periodo histórico (por ejemplo, África oriental en el Paleolítico inferior).
+           - **Rol**: una función concreta dentro del grupo (tallador, recolectora, guía, cuidadora…).
+           - **Especie**: debe corresponder a la especie humana del periodo (ej. Homo erectus).
+           - **Edad**: ajustada a su rol, teniendo en cuenta la esperanza de vida de la época.
+
+           **Estilo**:
+           - Lenguaje claro y directo.
+           - Nada de nombres modernos, tecnicismos innecesarios ni adornos fuera de época.
+           - Tonalidad sencilla pero expresiva, adecuada a una ficha de personaje.
+        4. **Usar siempre un lenguaje sencillo y directo en el prompt** para evitar interpretaciones erróneas.
+      </Tab>
+      <Tab title="Ejemplo">
+        Necesito que generes un **perfil de personaje ficticio** ambientado en el Paleolítico inferior.\
+        Usa **solo** los siguientes datos históricos y el contexto que incluyo, sin añadir información externa ni anacrónica.
+
+        **Datos históricos**:
+
+        - Periodo: Paleolítico inferior (≈ 450 000 a. C.)
+        - Tecnología: Industria Achelense (bifaces de sílex y cuarcita, martillos de madera)
+        - Medio ambiente: Sabana con bosques de galería, estaciones secas/húmedas
+        - Sociedad: Bandas de 20-30 individuos, cooperación básica, cuidado de crías, comunicación gestual y vocal
+        - Innovación clave: Control intermitente del fuego
+        - Especie: Homo erectus
+
+        **Contexto histórico**:\
+        En el Paleolítico inferior, hacia 450 000 a. C., los primeros Homo erectus dominaban la industria Achelense: bifaces simétricos tallados en sílex o cuarcita, golpeados con martillos de madera.\
+        Estas bandas, compuestas por apenas 20 o 30 individuos, se desplazaban por una sabana salpicada de bosques de galería y alternaban campamentos según las estaciones secas o húmedas.\
+        Su comunicación era básicamente gestual y vocal; aun así cooperaban para cuidar a las crías y aprovechar carroñas o presas grandes.\
+        El control del fuego seguía siendo intermitente: hogueras naturales que prolongaban la actividad nocturna y alejaban a los depredadores.
+
+        **Formato del perfil**:
+
+        - Nombre (inventado, sin referencias modernas)
+        - Lema o frase simbólica (ej. “El que golpea la piedra”)
+        - Localización (realista y coherente con el periodo)
+        - Rol dentro del grupo (tallador, guía, cuidadora…)
+        - Especie (Homo erectus)
+        - Edad estimada (coherente con el rol y la época)
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Revisión crítica" icon="lightbulb-exclamation" iconType="duotone" stepNumber="3" titleSize="h2">
+    El objetivo es que los alumnos aprendan a revisar críticamente el contenido generado con IA e identifiquen errores comparando el texto generado con las fuentes originales.
+
+    <Tabs>
+      <Tab title="Instrucciones">
+        - **Comparar punto por punto con la información original**:
+          - Revisar si el texto incluye **todos los datos** proporcionados:
+            - Periodo
+            - Tecnología
+            - Medio ambiente
+            - Sociedad
+            - Innovación clave
+          - Verificar si esos datos se reflejan de manera correcta, usando como referencia los [Datos Históricos](datos-historicos.md) y el libro de texto.
+        - **Detectar información no autorizada**:
+          - Comprobar si el texto añade información que **no aparece** en su [Datos Históricos](datos-historicos.md)  ni en el libro.
+          - Si detectan añadidos (como inventos, eventos, tecnologías o costumbres no mencionadas en el libro), deben considerarlo un **error**.
+        - **Identificar errores históricos**:
+          - Revisar si el texto incluye **anacronismos** o datos erróneos (por ejemplo, mencionar cerámica en el Paleolítico Inferior).
+        - **Registrar los errores en una** [**Tabla de Errores**](../tabla-de-errores.md)
+      </Tab>
+      <Tab title="Ejemplo">
+        <table>
+        <thead>
+        <tr>
+
+        </tr>
+
+        </thead>
+
+        </table>
+      </Tab>
+    </Tabs>
+  </Step>
+  <Step title="Re-Prompt" icon="sparkles" iconType="duotone" stepNumber="4" titleSize="h2">
+    - Si hay pequeños errores, el alumno puede corregir el texto directamente.
+    - Si hay muchos errores, se recomienda rehacer el prompt ajustándolo mejor.
+  </Step>
+  <Step title="Perfil de personaje Final" icon="newspaper" iconType="duotone" titleSize="h2">
+    Los alumnos añadirán el perfil final a la Ficha de Personaje.
+
+    ![Header Pn](/images/Header.png)
+  </Step>
+</Steps>
