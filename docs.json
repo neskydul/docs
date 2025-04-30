@@ -13,37 +13,39 @@
       {
         "language": "es",
         "tabs": [
-      {
-        "tab": "Guía del docente",
-        "groups": [
           {
-            "group": "Primeros pasos",
-            "pages": [
-              "es/primerospasos/introduccion",
-              "es/primerospasos/requisitos"
-            ]
-          },
-          {
-            "group": "Ficha de Personaje",
-            "pages": [
-              "es/fichadepersonaje/descripciongeneral",
-              "es/fichadepersonaje/datos",
-              "es/fichadepersonaje/contexto",
-              "es/fichadepersonaje/perfil",
-              "es/fichadepersonaje/narrativa",
-              "es/fichadepersonaje/recursos"
-            ]
-          },
-          {
-            "group": "Carta de Personaje",
-            "pages": [
-              "cartapersonaje/descripciongeneral"
-            ]
-          },
-          {
-            "group": "Actividades Inmersivas",
-            "pages": [
-              "actividadesinmersivas/descripciongeneral"
+            "tab": "Guía del docente",
+            "groups": [
+              {
+                "group": "Primeros pasos",
+                "pages": [
+                  "es/primerospasos/introduccion",
+                  "es/primerospasos/requisitos"
+                ]
+              },
+              {
+                "group": "Ficha de Personaje",
+                "pages": [
+                  "es/fichadepersonaje/descripciongeneral",
+                  "es/fichadepersonaje/datos",
+                  "es/fichadepersonaje/contexto",
+                  "es/fichadepersonaje/perfil",
+                  "es/fichadepersonaje/narrativa",
+                  "es/fichadepersonaje/recursos"
+                ]
+              },
+              {
+                "group": "Carta de Personaje",
+                "pages": [
+                  "es/cartapersonaje/descripciongeneral"
+                ]
+              },
+              {
+                "group": "Actividades Inmersivas",
+                "pages": [
+                  "es/actividadesinmersivas/descripciongeneral"
+                ]
+              }
             ]
           }
         ]
@@ -63,8 +65,6 @@
         }
       ]
     }
-      }
-    
   },
   "logo": {
     "light": "/logo/light.svg",
