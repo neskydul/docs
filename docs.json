@@ -48,6 +48,44 @@
               }
             ]
           }
+        ],
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "Guía del docente",
+            "groups": [
+              {
+                "group": "Primeros pasos",
+                "pages": [
+                  "en/primerospasos/introduccion",
+                  "en/primerospasos/requisitos"
+                ]
+              },
+              {
+                "group": "Ficha de Personaje",
+                "pages": [
+                  "en/fichadepersonaje/descripciongeneral",
+                  "en/fichadepersonaje/datos",
+                  "en/fichadepersonaje/contexto",
+                  "en/fichadepersonaje/perfil",
+                  "en/fichadepersonaje/narrativa",
+                  "en/fichadepersonaje/recursos"
+                ]
+              },
+              {
+                "group": "Carta de Personaje",
+                "pages": [
+                  "en/cartapersonaje/descripciongeneral"
+                ]
+              },
+              {
+                "group": "Actividades Inmersivas",
+                "pages": [
+                  "en/actividadesinmersivas/descripciongeneral"
+                ]
+              }
+            ]
+          }
         ]
       }
     ],
