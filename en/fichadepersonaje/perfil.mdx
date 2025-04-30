@@ -1,97 +1,97 @@
 ---
-title: "Perfil de personaje"
+title: "Character Profile"
 icon: "sparkles"
 iconType: "duotone"
 ---
 
-Una vez redactado el **Contexto Histórico** y recogidos los **Datos Históricos**, el siguiente paso es crear el **Perfil de Personaje**, que incluye su nombre, rol, edad, localización, especie y un lema o frase simbólica.
+Once the **Historical Context** has been written and the **Historical Data** collected, the next step is to create the **Character Profile**, which includes their name, role, age, location, species, and a symbolic motto or phrase.
 
-Este perfil será **generado con IA** a partir de los datos ya validados, y posteriormente **revisado y corregido por el alumno** si fuera necesario.
+This profile will be **generated with AI** based on the already validated data, and subsequently **reviewed and corrected by the student** if necessary.
 
 <Steps>
-  <Step title="Información base." iconType="duotone" stepNumber={1} titleSize="h2">
-    ### El alumno debe tener listos:
+  <Step title="Baseline information." iconType="duotone" stepNumber={1} titleSize="h2">
+    ### The student must have ready:
 
-    - La **tabla de [Datos Históricos](/fichadepersonaje/datos)**.
-    - El **[Contexto Histórico](/fichadepersonaje/contexto)** generado previamente.
+    - The **[Historical Data](/fichadepersonaje/datos)** table.
+    - The previously generated **[Historical Context](/fichadepersonaje/contexto)**.
   </Step>
-  <Step title="Elaborar el prompt para la IA." iconType="duotone" stepNumber={2} titleSize="h2">
-    Para elaborar un **Contexto Histórico** de calidad usando Inteligencia Artificial, es fundamental que los alumnos aprendan a formular un **buen prompt**: un mensaje claro y preciso que indique exactamente lo que queremos que la IA escriba.
+  <Step title="Create the prompt for AI." iconType="duotone" stepNumber={2} titleSize="h2">
+    To develop a quality **Historical Context** using Artificial Intelligence, it is essential that students learn to formulate a **good prompt**: a clear and precise message that indicates exactly what we want the AI to write.
 
     <Tabs>
-      <Tab title="Instrucciones">
-        1. **Presentar el objetivo**:\
-           Explicar que se quiere crear un **perfil ficticio** de un personaje que podría haber vivido en esa época, **usando únicamente la información ya obtenida** ([Datos Históricos](/fichadepersonaje/datos) y [Contexto Histórico](/fichadepersonaje/contexto)).
-        2. **Dar instrucciones claras**:\
-           El mensaje debe indicar explícitamente que:
-           - Solo se puede usar la información proporcionada.
-           - No se debe inventar ni añadir datos externos o anacrónicos.
-           - El resultado debe tener un formato específico con campos definidos.
-        3. **Especificar formato y estilo**:
-           - **Nombre inventado**: con sonoridad primitiva, sin referencias modernas.
-           - **Lema o frase simbólica**: una breve descripción poética o metafórica de su rol o identidad.
-           - **Localización**: realista, coherente con el periodo histórico (por ejemplo, África oriental en el Paleolítico inferior).
-           - **Rol**: una función concreta dentro del grupo (tallador, recolectora, guía, cuidadora…).
-           - **Especie**: debe corresponder a la especie humana del periodo (ej. Homo erectus).
-           - **Edad**: ajustada a su rol, teniendo en cuenta la esperanza de vida de la época.
+      <Tab title="Instructions">
+        1. **Present the objective**:\
+           Explain that you want to create a **fictional profile** of a character who could have lived in that era, **using only the information already obtained** ([Historical Data](/fichadepersonaje/datos) and [Historical Context](/fichadepersonaje/contexto)).
+        2. **Give clear instructions**:\
+           The message should explicitly indicate that:
+           - Only the provided information can be used.
+           - You should not invent or add external or anachronistic data.
+           - The result should have a specific format with defined fields.
+        3. **Specify format and style**:
+           - **Invented name**: with primitive sound, without modern references.
+           - **Motto or symbolic phrase**: a brief poetic or metaphorical description of their role or identity.
+           - **Location**: realistic, consistent with the historical period (for example, East Africa in the Lower Paleolithic).
+           - **Role**: a specific function within the group (carver, gatherer, guide, caretaker...).
+           - **Species**: must correspond to the human species of the period (e.g., Homo erectus).
+           - **Age**: adjusted to their role, taking into account the life expectancy of the time.
 
-           **Estilo**:
-           - Lenguaje claro y directo.
-           - Nada de nombres modernos, tecnicismos innecesarios ni adornos fuera de época.
-           - Tonalidad sencilla pero expresiva, adecuada a una ficha de personaje.
-        4. **Usar siempre un lenguaje sencillo y directo en el prompt** para evitar interpretaciones erróneas.
+           **Style**:
+           - Clear and direct language.
+           - No modern names, unnecessary technicalities, or out-of-period embellishments.
+           - Simple but expressive tone, suitable for a character profile.
+        4. **Always use simple and direct language in the prompt** to avoid misinterpretations.
       </Tab>
-      <Tab title="Ejemplo">
-        Necesito que generes un **perfil de personaje ficticio** ambientado en el Paleolítico inferior.\
-        Usa **solo** los siguientes datos históricos y el contexto que incluyo, sin añadir información externa ni anacrónica.
+      <Tab title="Example">
+        I need you to generate a **fictional character profile** set in the Lower Paleolithic.\
+        Use **only** the following historical data and the context I include, without adding external or anachronistic information.
 
-        **Datos históricos**:
+        **Historical data**:
 
-        - Periodo: Paleolítico inferior (≈ 450 000 a. C.)
-        - Tecnología: Industria Achelense (bifaces de sílex y cuarcita, martillos de madera)
-        - Medio ambiente: Sabana con bosques de galería, estaciones secas/húmedas
-        - Sociedad: Bandas de 20-30 individuos, cooperación básica, cuidado de crías, comunicación gestual y vocal
-        - Innovación clave: Control intermitente del fuego
-        - Especie: Homo erectus
+        - Period: Lower Paleolithic (≈ 450,000 BCE)
+        - Technology: Acheulean Industry (flint and quartzite bifaces, wooden hammers)
+        - Environment: Savanna with gallery forests, dry/wet seasons
+        - Society: Bands of 20-30 individuals, basic cooperation, offspring care, gestural and vocal communication
+        - Key innovation: Intermittent fire control
+        - Species: Homo erectus
 
-        **Contexto histórico**:\
-        En el Paleolítico inferior, hacia 450 000 a. C., los primeros Homo erectus dominaban la industria Achelense: bifaces simétricos tallados en sílex o cuarcita, golpeados con martillos de madera.\
-        Estas bandas, compuestas por apenas 20 o 30 individuos, se desplazaban por una sabana salpicada de bosques de galería y alternaban campamentos según las estaciones secas o húmedas.\
-        Su comunicación era básicamente gestual y vocal; aun así cooperaban para cuidar a las crías y aprovechar carroñas o presas grandes.\
-        El control del fuego seguía siendo intermitente: hogueras naturales que prolongaban la actividad nocturna y alejaban a los depredadores.
+        **Historical context**:\
+        In the Lower Paleolithic, around 450,000 BCE, the first Homo erectus mastered the Acheulean industry: symmetrical bifaces carved in flint or quartzite, struck with wooden hammers.\
+        These bands, composed of just 20 or 30 individuals, moved through a savanna dotted with gallery forests and alternated camps according to the dry or wet seasons.\
+        Their communication was basically gestural and vocal; even so, they cooperated to care for offspring and to take advantage of carrion or large prey.\
+        Fire control was still intermittent: natural fires that extended nighttime activity and kept predators away.
 
-        **Formato del perfil**:
+        **Profile format**:
 
-        - Nombre (inventado, sin referencias modernas)
-        - Lema o frase simbólica (ej. “El que golpea la piedra”)
-        - Localización (realista y coherente con el periodo)
-        - Rol dentro del grupo (tallador, guía, cuidadora…)
-        - Especie (Homo erectus)
-        - Edad estimada (coherente con el rol y la época)
+        - Name (invented, without modern references)
+        - Motto or symbolic phrase (e.g., "The stone striker")
+        - Location (realistic and consistent with the period)
+        - Role within the group (carver, guide, caretaker...)
+        - Species (Homo erectus)
+        - Estimated age (consistent with the role and era)
       </Tab>
     </Tabs>
   </Step>
-  <Step title="Revisión crítica" iconType="duotone" stepNumber={3} titleSize="h2">
-    El objetivo es que los alumnos aprendan a revisar críticamente el contenido generado con IA e identifiquen errores comparando el texto generado con las fuentes originales.
+  <Step title="Critical review" iconType="duotone" stepNumber={3} titleSize="h2">
+    The goal is for students to learn to critically review AI-generated content and identify errors by comparing the generated text with the original sources.
 
     <Tabs>
-      <Tab title="Instrucciones">
-        - **Comparar punto por punto con la información original**:
-          - Revisar si el texto incluye **todos los datos** proporcionados:
-            - Periodo
-            - Tecnología
-            - Medio ambiente
-            - Sociedad
-            - Innovación clave
-          - Verificar si esos datos se reflejan de manera correcta, usando como referencia los [Datos Históricos](datos-historicos.md) y el libro de texto.
-        - **Detectar información no autorizada**:
-          - Comprobar si el texto añade información que **no aparece** en su [Datos Históricos](datos-historicos.md)  ni en el libro.
-          - Si detectan añadidos (como inventos, eventos, tecnologías o costumbres no mencionadas en el libro), deben considerarlo un **error**.
-        - **Identificar errores históricos**:
-          - Revisar si el texto incluye **anacronismos** o datos erróneos (por ejemplo, mencionar cerámica en el Paleolítico Inferior).
-        - **Registrar los errores en una** [**Tabla de Errores**](/fichadepersonaje/recursos#tabla-de-errores)
+      <Tab title="Instructions">
+        - **Compare point by point with the original information**:
+          - Check if the text includes **all the data** provided:
+            - Period
+            - Technology
+            - Environment
+            - Society
+            - Key innovation
+          - Verify if those data are reflected correctly, using the [Historical Data](datos-historicos.md) and the textbook as references.
+        - **Detect unauthorized information**:
+          - Check if the text adds information that **does not appear** in their [Historical Data](datos-historicos.md) or in the book.
+          - If they detect additions (such as inventions, events, technologies, or customs not mentioned in the book), they should consider it an **error**.
+        - **Identify historical errors**:
+          - Check if the text includes **anachronisms** or incorrect data (for example, mentioning pottery in the Lower Paleolithic).
+        - **Record errors in an** [**Error Table**](/fichadepersonaje/recursos#tabla-de-errores)
       </Tab>
-      <Tab title="Ejemplo">
+      <Tab title="Example">
         <table>
         <thead>
         <tr />
@@ -103,11 +103,11 @@ Este perfil será **generado con IA** a partir de los datos ya validados, y post
     </Tabs>
   </Step>
   <Step title="Re-Prompt" iconType="duotone" stepNumber={4} titleSize="h2">
-    - Si hay pequeños errores, el alumno puede corregir el texto directamente.
-    - Si hay muchos errores, se recomienda rehacer el prompt ajustándolo mejor.
+    - If there are small errors, the student can correct the text directly.
+    - If there are many errors, it is recommended to redo the prompt with better adjustments.
   </Step>
-  <Step title="Perfil de personaje Final" icon="newspaper" iconType="duotone" titleSize="h2">
-    Los alumnos añadirán el perfil final a la Ficha de Personaje.
+  <Step title="Final Character Profile" icon="newspaper" iconType="duotone" titleSize="h2">
+    Students will add the final profile to the Character Profile.
 
     ![Header Pn](/images/Header.png)
   </Step>

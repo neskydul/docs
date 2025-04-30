@@ -14,17 +14,17 @@
         "language": "es",
         "tabs": [
           {
-            "tab": "Guía del docente",
+            "tab": "Teacher's Guide",
             "groups": [
               {
-                "group": "Primeros pasos",
+                "group": "First Steps",
                 "pages": [
                   "es/primerospasos/introduccion",
                   "es/primerospasos/requisitos"
                 ]
               },
               {
-                "group": "Ficha de Personaje",
+                "group": "Character Profile",
                 "pages": [
                   "es/fichadepersonaje/descripciongeneral",
                   "es/fichadepersonaje/datos",
@@ -35,21 +35,21 @@
                 ]
               },
               {
-                "group": "Carta de Personaje",
+                "group": "Character Card",
                 "pages": [
                   "es/cartapersonaje/descripciongeneral"
                 ]
               },
               {
-                "group": "Actividades Inmersivas",
+                "group": "Immersive Activities",
                 "pages": [
                   "es/actividadesinmersivas/descripciongeneral"
                 ]
               }
             ]
           }
-        ],
-        "language": "en",
+        ]},
+        {"language": "en",
         "tabs": [
           {
             "tab": "Guía del docente",
@@ -97,7 +97,7 @@
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Comunidad",
+          "anchor": "Community",
           "href": "https://discord.gg/NUsUAPRw",
           "icon": "discord"
         }
