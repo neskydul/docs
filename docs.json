@@ -14,17 +14,17 @@
         "language": "es",
         "tabs": [
           {
-            "tab": "Teacher's Guide",
+            "tab": "Guía del Docente",
             "groups": [
               {
-                "group": "First Steps",
+                "group": "Primeros Pasos",
                 "pages": [
                   "es/primerospasos/introduccion",
                   "es/primerospasos/requisitos"
                 ]
               },
               {
-                "group": "Character Profile",
+                "group": "Ficha de Personaje",
                 "pages": [
                   "es/fichadepersonaje/descripciongeneral",
                   "es/fichadepersonaje/datos",
@@ -35,13 +35,13 @@
                 ]
               },
               {
-                "group": "Character Card",
+                "group": "Carta de Personaje",
                 "pages": [
                   "es/cartapersonaje/descripciongeneral"
                 ]
               },
               {
-                "group": "Immersive Activities",
+                "group": "Actividades Inmersivas",
                 "pages": [
                   "es/actividadesinmersivas/descripciongeneral"
                 ]
