@@ -16,20 +16,20 @@
           {
             "group": "Primeros pasos",
             "pages": [
-              "introduccion",
-              "requisitos"
+              "es/primerospasos/introduccion",
+              "es/primerospasos/requisitos"
             ]
           },
           {
             "group": "Ficha de Personaje",
             "pages": [
-              "fichadepersonaje/descripciongeneral",
-              "fichadepersonaje/datos",
-              "fichadepersonaje/contexto",
-              "fichadepersonaje/perfil",
-              "fichadepersonaje/narrativa",
+              "es/fichadepersonaje/descripciongeneral",
+              "es/fichadepersonaje/datos",
+              "es/fichadepersonaje/contexto",
+              "es/fichadepersonaje/perfil",
+              "es/fichadepersonaje/narrativa",
               "fichadepersonaje/presentacion",
-              "fichadepersonaje/recursos"
+              "es/fichadepersonaje/recursos"
             ]
           },
           {
