@@ -57,31 +57,31 @@
               {
                 "group": "First Steps",
                 "pages": [
-                  "en/primerospasos/introduccion",
-                  "en/primerospasos/requisitos"
+                  "en/firststeps/introduction",
+                  "en/firststeps/requirements"
                 ]
               },
               {
                 "group": "Character Profile",
                 "pages": [
-                  "en/fichadepersonaje/descripciongeneral",
-                  "en/fichadepersonaje/datos",
-                  "en/fichadepersonaje/contexto",
-                  "en/fichadepersonaje/perfil",
-                  "en/fichadepersonaje/narrativa",
-                  "en/fichadepersonaje/recursos"
+                  "en/charactersheet/generaldescription",
+                  "en/charactersheet/historicaldata",
+                  "en/charactersheet/historicalcontext",
+                  "en/charactersheet/characterprofile",
+                  "en/charactersheet/narrative",
+                  "en/charactersheet/resources"
                 ]
               },
               {
                 "group": "Character Card",
                 "pages": [
-                  "en/cartapersonaje/descripciongeneral"
+                  "en/charactercard/generaldescription"
                 ]
               },
               {
                 "group": "Immersive Activities",
                 "pages": [
-                  "en/actividadesinmersivas/descripciongeneral"
+                  "en/immersiveactivities/generaldescription"
                 ]
               }
             ]
