@@ -9,7 +9,10 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
+      {
+        "language": "es",
+        "tabs": [
       {
         "tab": "Guía del docente",
         "groups": [
@@ -60,6 +63,8 @@
         }
       ]
     }
+      }
+    
   },
   "logo": {
     "light": "/logo/light.svg",
