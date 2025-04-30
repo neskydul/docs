@@ -28,7 +28,6 @@
               "es/fichadepersonaje/contexto",
               "es/fichadepersonaje/perfil",
               "es/fichadepersonaje/narrativa",
-              "fichadepersonaje/presentacion",
               "es/fichadepersonaje/recursos"
             ]
           },
